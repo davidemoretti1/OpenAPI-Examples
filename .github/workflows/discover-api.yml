@@ -1,4 +1,4 @@
-name: Sync Discovered API with API Connect
+name: Sync Discovered API with API Connect (check-changes)
 
 on: [pull_request, workflow_dispatch, push]
 
@@ -55,7 +55,7 @@ jobs:
         echo "Result of the action: ${{ steps.discover-apis.outputs.action-result }}"
 
 
-name: Sync Discovered API with API Connect
+name: Sync Discovered API with API Connect (run-discovery)
 
 on: [pull_request, workflow_dispatch, push]
 
