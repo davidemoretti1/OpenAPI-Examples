@@ -62,7 +62,7 @@ on: [pull_request, workflow_dispatch, push]
 env:
   API_HOST: api-manager.eu-central-a.apiconnect.automation.ibm.com
   PROVIDER_ORG: tech-sales
-  API_FILES: examples/v2.0
+  API_FOLDERS: examples/v2.0
 
 jobs:
   run-discovery:
