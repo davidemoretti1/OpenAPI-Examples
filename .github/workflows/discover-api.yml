@@ -5,7 +5,7 @@ on: [pull_request, workflow_dispatch, push]
 env:
   API_HOST: eu-central-a.apiconnect.automation.ibm.com
   PROVIDER_ORG: tech-sales
-  API_FOLDERS: examples/v2.0
+  API_FOLDERS: examples/v2.0/yaml
 
 jobs:
   check_changes_job:
