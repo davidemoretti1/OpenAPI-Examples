@@ -52,4 +52,6 @@ jobs:
         resync_check: ${{ needs.check_changes_job.outputs.action_changed && true || false }}
     - name: Display the action-result
       run: |
+        echo "$api_key"
+        echo "${{ secrets.apicApikey }}"
         echo "Result of the action: ${{ steps.discover-apis.outputs.action-result }}"
