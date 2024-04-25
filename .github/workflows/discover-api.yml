@@ -1,4 +1,4 @@
-name: Sync Discovered API with API Connect (check-changes)
+name: Sync Discovered API with API Connect
 
 on: [pull_request, workflow_dispatch, push]
 
